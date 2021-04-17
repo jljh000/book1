@@ -1,0 +1,66 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://lemontc.tk/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://lemontc.tk/static/js/analytics.js",
+                    "path": "js/analytics.js"
+                },
+                {
+                    "url": "https://jsstatic.bd.bcebos.com/jquery/jquery-migrate-1.2.1.min.js",
+                    "path": "js/jquery-migrate-1.2.1.min.js"
+                },
+                {
+                    "url": "https://lemontc.tk/static/js/index.js?!",
+                    "path": "js/index.js"
+                },
+                {
+                    "url": "https://yy.mxqwq.cn/static/theme/4/player/js/player.js",
+                    "path": "js/player.js"
+                },
+                {
+                    "url": "https://lemontc.tk/static/css/style.css",
+                    "path": "css/style.css",
+                    "children": [
+                        {
+                            "url": "https://lemontc.tk/static/fonts/fontello.eot",
+                            "path": "fonts/fontello.eot"
+                        },
+                        {
+                            "url": "https://lemontc.tk/static/fonts/fontello.woff2",
+                            "path": "fonts/fontello.woff2"
+                        },
+                        {
+                            "url": "https://lemontc.tk/static/fonts/fontello.woff",
+                            "path": "fonts/fontello.woff"
+                        },
+                        {
+                            "url": "https://lemontc.tk/static/fonts/fontello.ttf",
+                            "path": "fonts/fontello.ttf"
+                        },
+                        {
+                            "url": "https://lemontc.tk/static/fonts/fontello.svg",
+                            "path": "images/fontello.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://lemontc.tk/favicon.ico",
+                    "path": "favicon.ico"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}

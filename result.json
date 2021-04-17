@@ -1,0 +1,53 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "lemontc-tk-4fkmshhc",
+    "options": {
+        "url": "https://lemontc.tk/",
+        "index": "index.html",
+        "domain": "lemontc.tk",
+        "origin": "https://lemontc.tk",
+        "ipaddress": "194.56.79.3",
+        "originURL": "https://lemontc.tk",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "server": "qingyunl.com",
+                "date": "Sat, 17 Apr 2021 10:47:08 GMT",
+                "content-encoding": "gzip",
+                "last-modified": "Thu, 04 Feb 2021 08:23:19 GMT",
+                "content-type": "text/html",
+                "x-cache": "HIT from h=;d:\u0011d:\u0012h\u0001\u0014",
+                "content-length": "1948",
+                "connection": "close"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1618657483648,
+        "end": 1618657488817,
+        "spend": 5.169
+    }
+}
